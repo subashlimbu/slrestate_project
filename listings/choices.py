@@ -25,6 +25,10 @@ price_choices = {
 }
 
 state_choices = {
+        'London': 'London',
+        'Harrow': 'Harrow',
+        'Poole': 'Poole',
+        'Reading': 'Reading',
         'AK': 'Alaska',
         'AL': 'Alabama',
         'AR': 'Arkansas',
