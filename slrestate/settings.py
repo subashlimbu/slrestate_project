@@ -132,12 +132,19 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'slrestate/static')
 ]
 
-#Media Folder Settings
+# Media Folder Settings
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
-#Messages
+# Messages
 from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
+
+# Email config
+EMAIL_HOST = 'smtp.gmail.com'
+EMAI_PORT = '587'
+EMAIL_HOST_USER='subashlimbu700@gmail.com'
+EMAIL_HOST_PASSWORD='nlpisnglrrxvsrqj'
+EMAIL_USE_TLS=True
